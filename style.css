@@ -215,6 +215,38 @@ footer{
     background: #181818;
     position: fixed;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
+}
+footer .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.left-title>p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    margin-top: 23px;
+}
+.left-title>p>span{
+    color: #B3B3B3;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.75px;
+}
+.after-footer{
+    background: #1ED760;
+    width: 100vw;
+    /* position: absolute; */
+    top: 500px;
+    position: fixed;
 }
